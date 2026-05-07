@@ -6,9 +6,10 @@ format:
 editor: source
 ---
 
-```{r setup}
+```{r}
 #| include: false
 #| message: false
+#| label: setup
 
 library(tidyverse)
 library(readxl)
@@ -49,7 +50,7 @@ childcare_costs <- read_csv('https://raw.githubusercontent.com/rfordatascience/t
 
 counties <- read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-05-09/counties.csv')
 
-ca_tax_rev <- read_csv('https://atheobold.github.io/groupworthy-data-science/labs/instructions/data/ca_tax_revenue.csv')
+ca_tax_rev <- read_csv('https://atheobold.github.io/ADS-course-materials/labs/instructions/data/ca_tax_revenue.csv')
 ```
 
 ## Thursday, October 17
@@ -176,6 +177,7 @@ A **deprecated** functionality has a better alternative available and is schedul
 #| echo: true
 #| code-line-numbers: "2-5"
 #| eval: true
+#| error: true
 
 military_clean |> 
   filter(across(.cols = -Country, 

@@ -18,9 +18,9 @@ That’s the spirit intended for the STAT 331 Portfolio. In your portfolio, you 
 
 **What to include**: Your portfolio needs to contain all of the following:
 
--   **Final grade reflection**: this is a document housing examples of code you've written which demonstrate your achievement of the course's learning objectives, reflections about how you revised your thinking throughout the course, examples of how you extended your thinking, and reflections and examples of how you grew as a collaborator
+- **Final grade reflection**: this is a document housing examples of code you've written which demonstrate your achievement of the course's learning objectives, reflections about how you revised your thinking throughout the course, examples of how you extended your thinking, and reflections and examples of how you grew as a collaborator
 
--   **Essay responses**. Write brief (1-2 sentence) responses to each of the prompts listed in the "Lightning Round" additional Quarto file.
+- **Essay responses**. Write brief (1-2 sentence) responses to each of the prompts listed in the "Lightning Round" additional Quarto file.
 
 ## Final grade reflection
 
@@ -32,23 +32,22 @@ This reflection will be done in the `reflection_template.qmd` file provided in t
 
 2.  For each of the learning targets, carefully select examples of your code that demonstrate concretely and directly your proficiency with the given target.
 
--   Some learning targets ask for one example, some ask for two examples, and some ask for specific examples relative to particular data types.
+- Some learning targets ask for one example, some ask for two examples, and some ask for specific examples relative to particular data types.
 
--   **Your Lab assignments and Challenge problems should be the sole source for these examples**.
+- **Your Lab assignments and Challenge problems should be the sole source for these examples**.
 
-    -   You must indicate where the code you provided came from, including the title of the assignment and problem number either next to the code title (e.g., xlsx
+  - You must indicate where the code you provided came from, including the title of the assignment and problem number either next to the code title (e.g., xlsx
 
-    -   Lab 2 Question 1) or as a code comment at the top of the code chunk.
+  - Lab 2 Question 1) or as a code comment at the top of the code chunk.
 
-    -   Note, your code is not expected to run! The execute options at the top of the Quarto file are set to `eval: false`. Thus, you **do not** need to load in any packages or datasets in your reflection.
+  - Note, your code is not expected to run! The execute options at the top of the Quarto file are set to `eval: false`. Thus, you **do not** need to load in any packages or datasets in your reflection.
 
 3.  **How did you meet that grade’s additional requirements?**
 
-- In addition to the learning targets, each grade has expectations related to *revising thinking*, *extending thinking*, and *peer collaboration*. 
-    + The requirements for each component are found in the [course syllabus](/course-materials/course-syllabus.qmd) section of the syllabus. 
-
-- Review the criteria carefully. Then, in each essay, explain how you have satisfied the criteria for the grade you are saying you’ve earned. Be specific and thorough. 
-  + Within each component, address each criterion and how you have it. Refer to specific artifacts or examples in the Portfolio that support your case. Again, keep it brief and focused on concrete evidence that the criteria have been met.
+- In addition to the learning targets, each grade has expectations related to *revising thinking*, *extending thinking*, and *peer collaboration*.
+  - The requirements for each component are found in the [course syllabus](../course-materials/course-syllabus.qmd) section of the syllabus.
+- Review the criteria carefully. Then, in each essay, explain how you have satisfied the criteria for the grade you are saying you’ve earned. Be specific and thorough.
+  - Within each component, address each criterion and how you have it. Refer to specific artifacts or examples in the Portfolio that support your case. Again, keep it brief and focused on concrete evidence that the criteria have been met.
 
 4.  **What else?** There may be some other criteria that figures into your grade request that isn’t explicitly listed in the syllabus. If so, state the criteria you’re thinking of, explain why they are useful criteria for your grade determination, and then explain how well you met those criteria (and provide evidence in the artifacts, if applicable). As with the syllabus criteria, be focused, specific, and thorough — and refer to specific artifacts that provide evidence.
 
@@ -58,11 +57,11 @@ This reflection will be done in the `reflection_template.qmd` file provided in t
 
 You can revise any Lab Assignment or Challenge one additional time before including it in the portfolio. If you do so, please note:
 
--   **Do not submit the revised Lab Assignment or Challenge to Canvas.** Just put the revision in the Portfolio.
+- **Do not submit the revised Lab Assignment or Challenge to Canvas.** Just put the revision in the Portfolio.
 
--   If you chose to complete an additional revision for the Portfolio, please indicate this to me. For example in the reference to the code location, indicate a revision has been made (e.g., right_join() - Challenge 4 (Revised))
+- If you chose to complete an additional revision for the Portfolio, please indicate this to me. For example in the reference to the code location, indicate a revision has been made (e.g., right_join() - Challenge 4 (Revised))
 
--   **You won’t get any additional feedback for revisions done for the Portfolio.** If you want feedback on a solution, submit it as an ordinary homework revision.
+- **You won’t get any additional feedback for revisions done for the Portfolio.** If you want feedback on a solution, submit it as an ordinary homework revision.
 
 ## **Essays**
 

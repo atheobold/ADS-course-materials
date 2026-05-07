@@ -7,8 +7,8 @@
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../../site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.7.32">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.8.26">
 
   <title>Introduction to Statistical Computing in R – Intro to STAT 331 / 531 + Intro to R + Intro to Quarto</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -29,7 +29,7 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto-6d02e77d9dfdd3db66b8e378a2551fec.css">
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto-f1a4148ba201928a324fae0a0064c0e1.css">
   <link href="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -146,8 +146,7 @@
 <li>Introductions (Me + You)</li>
 <li>Course Layout</li>
 <li>Basics of R</li>
-<li><a href="../../group-activities/week-1/data-cleaning-viz-steps.qmd">Group collaboration warm-up</a></li>
-<li><a href="../../group-activities/week-1/broken-circles.html">Data wrangling / visualization puzzle</a></li>
+<li><a href="../../group-activities/week-1/broken-circles.html">Group collaboration warm-up</a></li>
 </ul>
 </section></section>
 <section>
@@ -390,29 +389,10 @@
 </div>
 </div>
 </div>
+
+
 </div>
 </section></section>
-<section id="before-class-on-thursday" class="title-slide slide level1 center">
-<h1>Before class on Thursday…</h1>
-
-</section>
-
-<section id="before-class-on-thursday-1" class="title-slide slide level1 center">
-<h1>Before class on Thursday…</h1>
-<ul>
-<li><p>Complete the <a href="../weeks/week-1-version-control.qmd">Version Control coursework</a></p></li>
-<li><p><strong>Check-ins 1.6 - 1.9</strong>: Getting version control set-up</p>
-<ul>
-<li>Due Thursday (9/26) by the start of class</li>
-</ul></li>
-<li><p>Introduce yourself on Discord!</p>
-<ul>
-<li>Due by Friday (9/27)</li>
-</ul></li>
-</ul>
-
-
-</section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <div class="footer footer-default">
@@ -602,7 +582,7 @@
         margin: 0.1,
 
         math: {
-          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js',
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
           config: 'TeX-AMS_HTML-full',
           tex2jax: {
             inlineMath: [['\\(','\\)']],
@@ -676,13 +656,14 @@
           e.clearSelection();
         }
         const getTextToCopy = function(trigger) {
-            const codeEl = trigger.previousElementSibling.cloneNode(true);
-            for (const childEl of codeEl.children) {
-              if (isCodeAnnotation(childEl)) {
-                childEl.remove();
-              }
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
             }
-            return codeEl.innerText;
+          }
+          return codeEl.innerText;
         }
         const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
           text: getTextToCopy

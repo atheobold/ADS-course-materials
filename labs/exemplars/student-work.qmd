@@ -293,7 +293,7 @@ childcare_costs <- read_csv('https://raw.githubusercontent.com/rfordatascience/t
 
 counties <- read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-05-09/counties.csv')
 
-tax_rev <- read_csv('https://atheobold.github.io/groupworthy-data-science/labs/instructions/data/ca_tax_revenue.csv')
+tax_rev <- read_csv('https://atheobold.github.io/ADS-course-materials/labs/instructions/data/ca_tax_revenue.csv')
 
 ca_childcare <- counties |>
   filter(state_name == "California") |>
@@ -1529,16 +1529,13 @@ style_plot <- function(plot, theme_fn = theme_bw,
 }
 ```
 
-# Lab 9 
+# Lab 9
 
-There were a couple of small changes people made to their tables for Lab 9 that
-I thought went the extra mile. Here are a couple of them!
+There were a couple of small changes people made to their tables for Lab 9 that I thought went the extra mile. Here are a couple of them!
 
 ## Consistent Capitalization
 
-It seems like a small change, but I really appreciated how Elise Donaho changed
-the capitalization of the data type column so every word had consistent 
-capitalization (instead of Date being the only capital letter). 
+It seems like a small change, but I really appreciated how Elise Donaho changed the capitalization of the data type column so every word had consistent capitalization (instead of Date being the only capital letter).
 
 ```{r}
 library(kableExtra)
@@ -1562,11 +1559,9 @@ surveys |>
 
 ## Formatting Numbers
 
-Another small change that Nick Carboni (and few others) made was to add commas
-to the numbers in the missing value table. There were a couple of ways to add
-the colors to the table:
+Another small change that Nick Carboni (and few others) made was to add commas to the numbers in the missing value table. There were a couple of ways to add the colors to the table:
 
-1. **Using the `rows` argument of `tab_style()`**
+1.  **Using the `rows` argument of `tab_style()`**
 
 ```{r}
 library(gt)
@@ -1603,7 +1598,7 @@ fish |>
   opt_row_striping()
 ```
 
-2. **Defining a local function inside `data_color()`**
+2.  **Defining a local function inside `data_color()`**
 
 ```{r}
 
@@ -1634,5 +1629,3 @@ fish |>
     table.align = "center"
   )
 ```
-
-

@@ -16,9 +16,7 @@ Today we will...
 -   Introductions (Me + You)
 -   Course Layout
 -   Basics of R
--   [Group collaboration warm-up](../../group-activities/week-1/data-cleaning-viz-steps.qmd)
--   [Data wrangling / visualization puzzle](../../group-activities/week-1/broken-circles.qmd)
-
+-   [Group collaboration warm-up](../../group-activities/week-1/broken-circles.qmd)
 
 # Introductions
 
@@ -241,18 +239,3 @@ Your participation in this research will not affect your course grade.
 Please complete the consent form (<https://forms.gle/oax73hoe7uRSVLYw8>) by 
 Monday, 9/30. 
 :::
-
-
-# Before class on Thursday...
-
-# Before class on Thursday...
-
-- Complete the [Version Control coursework](../weeks/week-1-version-control.qmd)
-
--   **Check-ins 1.6 - 1.9**: Getting version control set-up
-
-    -   Due Thursday (9/26) by the start of class
-
-- Introduce yourself on Discord!
-
-    - Due by Friday (9/27)
